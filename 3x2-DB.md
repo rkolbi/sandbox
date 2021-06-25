@@ -9,7 +9,7 @@ The second group should be an arduous effort, but not pushing to failure, try to
 squeeze, and form.  
       
   
-#### **+Monday**  
+### **+Monday**  
 
 Warm up: 1.5 mile jog  
 
@@ -29,7 +29,7 @@ Weighted head-harness side raises: 18, 18, 18, 18
 (18 one side, then 18 to the other side)    
   
   
-#### +Tuesday  
+### +Tuesday  
 
 Warm up: 1.5 mile run  
 
@@ -45,7 +45,7 @@ Spider curl: 10, 10, 10
 Zottman Curl -or- Pinwheel Curl -or- Reverse Curl: 10, 10, 10  
   
   
-#### +Wednesday  
+### +Wednesday  
 
 Warm up: 5 min run in place -or- Box/Bench hops  
 
@@ -63,7 +63,7 @@ Bent Over Reverse Fly, partial swings upon failure: 15, 15, 12, 10
 Dumbbell Shrug (single or both): 15, 15, 15  
   
   
-#### +Thursday  
+### +Thursday  
 
 Warm up: 1.5 mile jog  
 
@@ -83,7 +83,7 @@ Weighted head-harness front/back raises: 18, 18, 18, 18
 (18 one side, then 18 to the other side)  
   
   
-#### +Friday  
+### +Friday  
 
 Warm up: 3 mile jog  
 
@@ -99,7 +99,7 @@ Dumbbell Row w/ Shrug holds: 12, 10, 10, 8, 8
 Dumbbell Pullover (pull from lats): 12, 10, 10  
   
   
-#### +Saturday  
+### +Saturday  
 
 Warm up: 1.5 mile jog
 
@@ -116,7 +116,7 @@ Bulgarian Split Squat: 12, 12, 12, 12
 Dumbbell Standing Calf Raise: 12, 12, 12, 12  
   
     
-#### +Sunday
+### +Sunday
   
 Warm up: Fartlek 30 minutes -or- Jog for 45 minutes
 Yoga / Stretch day  
