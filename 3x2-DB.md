@@ -154,6 +154,6 @@ Repeat 5 times.
 Race pace, maximum achievable pace  
 High cardio HR (~80% of calculated max)  
   
-**-Jog definition**  			
+**-Jog definition**  
 Comfortable pace, low effort  
 Low cardio HR (fat burning range)
