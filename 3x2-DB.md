@@ -1,4 +1,6 @@
-**6 Day (Dumbbell) split: 3x2 - Chest & Tri's, Back & Bi's, Legs & Shoulders**  
+### **6 Day (Dumbbell) split: 3x2**
+**Chest & Tri's, Back & Bi's, Legs & Shoulders**  
+
 Duration of 60-90 minutes per day. The first muscle group denotes the focus for the given day.  
 The Reps & Sets are only a suggestion; always go moderate / non-failure until you know your body.  
 I typically do pyramid up that begins with a feeder set, warming up, and readying my joints. Also  
@@ -8,7 +10,7 @@ this is where you should be giving 100% effort, failing on last rep.
 The second group should be an arduous effort, but not pushing to failure, try to focus on contractions,  
 squeeze, and form.  
       
-  
+
 ### **+Monday**  
 Warm up: 1.5 mile jog  
 
@@ -26,8 +28,8 @@ One Arm Seated Dumbbell Extension: 12, 12, 12
 **Neck:**  
 Weighted head-harness side raises: 18, 18, 18, 18  
 (18 one side, then 18 to the other side)    
-  
-  
+
+
 ### +Tuesday  
 Warm up: 1.5 mile run  
 
@@ -41,8 +43,8 @@ Incline Hammer Curl: 12, 10, 10, 8
 Standing Dumbbell Curl (strict): 10, 10, 10  
 Spider curl: 10, 10, 10  
 Zottman Curl -or- Pinwheel Curl -or- Reverse Curl: 10, 10, 10  
-  
-  
+
+
 ### +Wednesday  
 Warm up: 5 min run in place -or- Box/Bench hops  
 
@@ -58,8 +60,8 @@ Dumbbell Side-Lateral Raise (Lighter, Upper Portion, Constant tension, squeeze):
 Dumbbell Front-Lateral Raise: 12, 10, 10  
 Bent Over Reverse Fly, partial swings upon failure: 15, 15, 12, 10  
 Dumbbell Shrug (single or both): 15, 15, 15  
-  
-  
+
+
 ### +Thursday  
 Warm up: 1.5 mile jog  
 
@@ -77,8 +79,8 @@ Pushups: 15, 15, 15
 **Neck:**  
 Weighted head-harness front/back raises: 18, 18, 18, 18  
 (18 one side, then 18 to the other side)  
-  
-  
+
+
 ### +Friday  
 Warm up: 3 mile jog  
 
@@ -92,8 +94,8 @@ Reverse Curl: 10, 10, 10
 One Arm Dumbbell Row: 12, 10, 10, 8, 8  
 Dumbbell Row w/ Shrug holds: 12, 10, 10, 8, 8  
 Dumbbell Pullover (pull from lats): 12, 10, 10  
-  
-  
+
+
 ### +Saturday  
 Warm up: 1.5 mile jog
 
@@ -108,16 +110,16 @@ Dumbbell Step-up: 12, 12, 12
 Dumbbell Goblet Squat: 12, 10, 10, 8  
 Bulgarian Split Squat: 12, 12, 12, 12  
 Dumbbell Standing Calf Raise: 12, 12, 12, 12  
-  
-    
+
+
 ### +Sunday
 Warm up: Fartlek 30 minutes -or- Jog for 45 minutes
 Yoga / Stretch day  
+
   
-  
-  
+
 **Every Day!: Declined bench crunches, Bridges (single, both, weighted), Side plank with hip raise holds**  
-  
+
 **Daily Lists (pick a few):**  
 Farmer Carry (w/shrug holds)  
 Woodchoppers (dumbbells or bands)  
@@ -135,18 +137,18 @@ Facepulls (bands)
 Low deck lizard crawl  
 Dumbbell Frankenstein  
 Face-Down flutter kicks  
-  
+
 **Notes:**  
 -Fartlek training session  
 Warm up with a steady jog for 5 minutes.  
 Run hard, above race pace for ~2 minutes.  
 Jog slowly for 3-5 minute, or until composure regain.  
 Repeat 5 times.  
-  
+
 **-Run definition**  
 Race pace, maximum achievable pace  
 High cardio HR (~80% of calculated max)  
-  
+
 **-Jog definition**  
 Comfortable pace, low effort  
 Low cardio HR (fat burning range)
