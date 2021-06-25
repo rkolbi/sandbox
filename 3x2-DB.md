@@ -10,7 +10,6 @@ squeeze, and form.
       
   
 ### **+Monday**  
-
 Warm up: 1.5 mile jog  
 
 **Chest:**  
@@ -30,7 +29,6 @@ Weighted head-harness side raises: 18, 18, 18, 18
   
   
 ### +Tuesday  
-
 Warm up: 1.5 mile run  
 
 **Back:**  
@@ -46,7 +44,6 @@ Zottman Curl -or- Pinwheel Curl -or- Reverse Curl: 10, 10, 10
   
   
 ### +Wednesday  
-
 Warm up: 5 min run in place -or- Box/Bench hops  
 
 **Legs:**  
@@ -64,7 +61,6 @@ Dumbbell Shrug (single or both): 15, 15, 15
   
   
 ### +Thursday  
-
 Warm up: 1.5 mile jog  
 
 **Triceps:**  
@@ -84,7 +80,6 @@ Weighted head-harness front/back raises: 18, 18, 18, 18
   
   
 ### +Friday  
-
 Warm up: 3 mile jog  
 
 **Biceps:**  
@@ -100,7 +95,6 @@ Dumbbell Pullover (pull from lats): 12, 10, 10
   
   
 ### +Saturday  
-
 Warm up: 1.5 mile jog
 
 **Shoulders:**  
@@ -117,7 +111,6 @@ Dumbbell Standing Calf Raise: 12, 12, 12, 12
   
     
 ### +Sunday
-  
 Warm up: Fartlek 30 minutes -or- Jog for 45 minutes
 Yoga / Stretch day  
   
