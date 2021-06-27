@@ -1,18 +1,13 @@
 ### **6 Day (Dumbbell) split: 3x2**
 **Chest & Tri's, Back & Bi's, Legs & Shoulders**  
 
-Duration of 60-90 minutes per day. The first muscle group denotes the focus for the given day.  
-The Reps & Sets are only a suggestion; always go moderate / non-failure until you know your body.  
-I typically do pyramid up that begins with a feeder set, warming up, and readying my joints. Also  
-note that the feeder set is not listed as I may do multiple feeder sets until I feel warmed up /  
-loosened up, and ready to begin. The first listed muscle group is the focus for the given day,  
-this is where you should be giving 100% effort, failing on last rep.  
-The second group should be an arduous effort, but not pushing to failure, try to focus on contractions,  
-squeeze, and form.  
-      
+Duration of 60-90 minutes per day. The first muscle group denotes the focus for the given day.  The Reps & Sets are only a suggestion; always go moderate / non-failure until you know your body.  I typically do pyramid up that begins with a feeder set, warming up, and readying my joints. Also, note that the feeder set is not listed, as I may do multiple feeder sets until I feel warmed up /  loosened up and ready to begin. The first listed muscle group is the focus for the given day; this is where you should be giving 100% effort, failing on the last rep.  The second group should be an arduous effort, but not pushing to failure, try to focus on contractions,  squeeze, and form. 
+*If just starting to workout, you can still use this plan but modify it to exercise the first listed muscle group per day, or work both as listed but just exercise on Monday, Wednesday, and Friday. If the runs are above your current capability, do run/walk - something like 3 minutes run followed by 5 minutes walk, each week lessening the walk time and eventually increasing your run time.
+
+
 
 ### **+Monday**  
-Warm up: 1.5 mile jog  
+Warm-up: 1.5 mile jog  
 
 **Chest:**  
 Flat Dumbbell Bench Press: 12, 10, 10, 8  
@@ -31,7 +26,7 @@ Weighted head-harness side raises: 18, 18, 18, 18
 
 
 ### +Tuesday  
-Warm up: 1.5 mile run  
+Warm-up: 1.5 mile run  
 
 **Back:**  
 One Arm Dumbbell Row: 12, 10, 10, 8, 6  
@@ -46,7 +41,7 @@ Zottman Curl -or- Pinwheel Curl -or- Reverse Curl: 10, 10, 10
 
 
 ### +Wednesday  
-Warm up: 5 min run in place -or- Box/Bench hops  
+Warm-up: 5 min run in place -or- Box/Bench hops  
 
 **Legs:**  
 Dumbbell Step-up: 12, 12, 12  
@@ -63,7 +58,7 @@ Dumbbell Shrug (single or both): 15, 15, 15
 
 
 ### +Thursday  
-Warm up: 1.5 mile jog  
+Warm-up: 1.5 mile jog  
 
 **Triceps:**  
 Dumbbell Tricep Kickback: 12, 12, 12  
@@ -82,7 +77,7 @@ Weighted head-harness front/back raises: 18, 18, 18, 18
 
 
 ### +Friday  
-Warm up: 3 mile jog  
+Warm-up: 3 mile jog  
 
 **Biceps:**  
 Spider Curl: 12, 10, 10, 8  
@@ -97,7 +92,7 @@ Dumbbell Pullover (pull from lats): 12, 10, 10
 
 
 ### +Saturday  
-Warm up: 1.5 mile jog
+Warm-up: 1.5 mile jog
 
 **Shoulders:**  
 Bent Over Dumbbell Reverse Fly: 15, 15, 12, 10  
@@ -113,7 +108,7 @@ Dumbbell Standing Calf Raise: 12, 12, 12, 12
 
 
 ### +Sunday
-Warm up: Fartlek 30 minutes -or- Jog for 45 minutes
+Warm-up: Fartlek 30 minutes -or- Jog for 45 minutes
 Yoga / Stretch day  
 
   
