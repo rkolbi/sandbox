@@ -108,7 +108,7 @@ Dumbbell Standing Calf Raise: 12, 12, 12, 12
 
 
 ### +Sunday
-Warm-up: Fartlek 30 minutes -or- Jog for 45 minutes
+Warm-up: Fartlek 30 minutes -or- Jog for 45 minutes  
 Yoga / Stretch day  
 
   
