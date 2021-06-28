@@ -113,7 +113,8 @@ Yoga / Stretch day
 
   
 
-**Every Day!: Declined bench crunches, side plank with hip raise holds, pushup sets (if not chest day)**  
+### *Every Day!  
+Declined bench crunches, side plank with hip raise holds, pushup sets (if not chest day)  
 
 **Daily Lists Ideas (pick a few):**  
 Farmer Carry (w/shrug holds) , Woodchoppers (dumbbells or bands), Renegade Row w/pushup, Flutter Kicks / Hello Dollies, Russian Twists, Walking Bicep curls double pumps, Romanian Deadlift, Walking Tricep extension double pumps, Dive bombers, Wrist curls (dumbbell / bands / dowel-rope), Mountain Climbers, Supermans, Facepulls (bands), Low deck lizard crawl, Dumbbell Frankenstein, Face-Down flutter kicks  
