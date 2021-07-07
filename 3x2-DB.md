@@ -12,7 +12,7 @@ Warm-up: 1.5 mile jog
 **Chest:**  
 Flat Dumbbell Bench Press: 12, 10, 10, 8  
 [SS] Flat Dumbbell Flys & Hex Press: 12-16, 10-16, 10-16  
-Dumbbell Pullover: 12, 12, 12
+Dumbbell Pullover: 12, 12, 12  
 Pushups: 15, 15, 15  
 
 **Triceps:**  
@@ -50,10 +50,10 @@ Bulgarian Split Squat: 12, 12, 12, 12
 Dumbbell Standing Calf Raise: 12, 12, 12, 12  
 
 **Shoulders:**  
+[SS]Bent Over Reverse Fly & Bent Over Wide Row: 15, 15, 12, 10  
 Dumbbell Side-Lateral Raise (Heavy, Lower Portion): 18, 18, 18, 18  
 Dumbbell Side-Lateral Raise (Lighter, Upper Portion, Constant tension, squeeze): 12, 10, 10  
 Dumbbell Front-Lateral Raise: 12, 10, 10  
-Bent Over Reverse Fly, partial swings upon failure: 15, 15, 12, 10  
 Dumbbell Shrug (single or both): 15, 15, 15  
 
 
@@ -95,9 +95,10 @@ Dumbbell Pullover (pull from lats): 12, 10, 10
 Warm-up: 1.5 mile jog
 
 **Shoulders:**  
-Bent Over Dumbbell Reverse Fly: 15, 15, 12, 10  
+[SS]Bent Over Reverse Fly & Bent Over Wide Row: 15, 15, 12, 10  
 Side-Laying Inclined-Bench Dumbbell Raise: 12, 10, 10, 8, 6  
 Side-Lateral Raise, partial swings upon failure: 12, 10, 10  
+Seated Dumbbell Arnold Press: 15, 12, 10  
 Dumbbell Shrug - single hand: 15, 15, 15  
 
 **Legs: (if not running on Sunday)**  
@@ -108,16 +109,13 @@ Dumbbell Standing Calf Raise: 12, 12, 12, 12
 
 
 ### +Sunday
-Warm-up: Fartlek 30 minutes -or- Jog for 45 minutes  
+Warm-up: Fartlek 30 minutes -or- Jog for 45 minutes
 Yoga / Stretch day  
 
   
 
-### *Every Day!  
-**Declined bench crunches, side plank with hip raise holds, pushup sets (if not chest day)**  
-  
-~  
-  
+**Every Day!: Declined bench crunches, side plank with hip raise holds, pushup sets (if not chest day)**  
+
 **Daily Lists Ideas (pick a few):**  
 Farmer Carry (w/shrug holds) , Woodchoppers (dumbbells or bands), Renegade Row w/pushup, Flutter Kicks / Hello Dollies, Russian Twists, Walking Bicep curls double pumps, Romanian Deadlift, Walking Tricep extension double pumps, Dive bombers, Wrist curls (dumbbell / bands / dowel-rope), Mountain Climbers, Supermans, Facepulls (bands), Low deck lizard crawl, Dumbbell Frankenstein, Face-Down flutter kicks  
 
