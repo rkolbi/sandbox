@@ -1,7 +1,10 @@
 ### **6 Day (Dumbbell) split: 3x2**
 **Chest & Tri's, Back & Bi's, Legs & Shoulders**  
 
-Duration of 60-90 minutes per day. The first muscle group denotes the focus for the given day.  The Reps & Sets are only a suggestion; always go moderate / non-failure until you know your body.  I typically do pyramid up that begins with a feeder set, warming up, and readying my joints. Also, note that the feeder set is not listed, as I may do multiple feeder sets until I feel warmed up /  loosened up and ready to begin. The first listed muscle group is the focus for the given day; this is where you should be giving 100% effort, failing on the last rep.  The second group should be an arduous effort, but not pushing to failure, try to focus on contractions,  squeeze, and form.  
+*Duration of 60-90 minutes per day. The first muscle group denotes the focus for the given day.*  
+
+The reps / sets are only a suggestion; always go moderate / non-failure until you know your body.  I typically do pyramid up that begins with a feeder set, warming up, and readying. Also note that the feeder set is not listed, as I may do multiple feeder sets until I feel warmed up /  loosened up and ready to begin. The first listed muscle group is the focus for the given day; this is where you should be giving 100% effort, failing on the last rep.  The second group should be an arduous effort, but not pushing to failure, try to focus on contractions, squeeze, and form.  
+
 *If just starting to workout, you can still use this plan but modify it to exercise the first listed muscle group per day, or work both as listed but just exercise on Monday, Wednesday, and Friday. If the runs are above your current capability, do run/walk - something like 3 minutes run followed by 5 minutes walk, each week lessening the walk time and eventually increasing your run time.
 
 
@@ -114,10 +117,10 @@ Yoga / Stretch day
 
   
 
-**Every Day!: Declined bench crunches, side plank with hip raise holds, pushup sets (if not chest day)**  
+**Every Day!: Farmer Carry, Declined bench .5 crunches, Side-Plank with Hip-Raise holds, Pushup sets (if not chest day)**  
 
 **Daily Lists Ideas (pick a few):**  
-Farmer Carry (w/shrug holds) , Woodchoppers (dumbbells or bands), Renegade Row w/pushup, Flutter Kicks / Hello Dollies, Russian Twists, Walking Bicep curls double pumps, Romanian Deadlift, Walking Tricep extension double pumps, Dive bombers, Wrist curls (dumbbell / bands / dowel-rope), Mountain Climbers, Supermans, Facepulls (bands), Low deck lizard crawl, Dumbbell Frankenstein, Face-Down flutter kicks  
+Woodchoppers (dumbbells or bands), Renegade Row w/pushup, Flutter Kicks / Hello Dollies, Russian Twists, Walking Bicep Curls double-pumps, Romanian Deadlift, Walking Tricep Extension double-pumps, Dive Bombers, Wrist Curls (dumbbell / bands / dowel-rope), Mountain Climbers, Supermans, Facepulls (bands), Low-Deck Lizard Crawl, Dumbbell Frankenstein, Face-Down Flutter Kicks  
 
 **Notes:**  
 -Fartlek training session  
