@@ -1,0 +1,76 @@
+[gcode_macro _VARIABLES]
+variable_zendstopswtitchoffset: 0.2
+# DO NOT MODIFY FOLLOWING VARIABLES (they are used internaly)
+variable_zcenterprobing: 0
+variable_znozzleprobing: 0
+variable_zeuclidbodyprobing: 0
+gcode:
+
+
+
+[gcode_macro ZAUTO]
+description: Clears bed-mesh and performs G28, QGL, G28-Z, Probes Center, and applies bed-mesh
+gcode:
+    {% set X_MID = printer.configfile.config["stepper_x"]["position_max"]|float / 2.0 %}
+    {% set X_PROBEOFFSET = printer.configfile.config["probe"]["x_offset"]|float %}
+    {% set Y_MID = printer.configfile.config["stepper_y"]["position_max"]|float / 2.0 %}
+    {% set Y_PROBEOFFSET = printer.configfile.config["probe"]["y_offset"]|float %}
+    {% set ZSpeed = printer["gcode_macro globalvariables"].zprobespeed|float %}
+    {% set ZSamples = printer["gcode_macro globalvariables"].zprobesamples|int %}
+    {% set ZTolerance = printer["gcode_macro globalvariables"].zprobetolerance|float %}
+    {% set ZRetract = printer["gcode_macro globalvariables"].zproberetract|float %}
+    {% set S_Retries = printer.configfile.config["probe"]["samples_tolerance_retries"]|int %}
+    BED_MESH_CLEAR
+    QUAD_GANTRY_LEVEL_ORIGINAL
+    G0 Z15 F3600
+    G0 X{(X_MID - X_PROBEOFFSET)} Y{(Y_MID - Y_PROBEOFFSET)} F4000
+    M118 Moving to probe bed center with Euclid.
+    PROBE samples_result=median samples={ZSamples} speed={ZSpeed} samples_tolerance={ZTolerance} samples_tolerance_retries={S_Retries} sample_retract_dist={ZRetract}
+    _ZAUTO2
+
+[gcode_macro _ZAUTO2]
+gcode:
+    {% set ProbeResult = printer.probe.last_z_result %}
+    SET_GCODE_VARIABLE MACRO=_VARIABLES VARIABLE=zcenterprobing VALUE={ProbeResult}
+    {% set ZSpeed = printer["gcode_macro globalvariables"].zprobespeed|float %}
+    {% set ZSamples = printer["gcode_macro globalvariables"].zprobesamples|int %}
+    {% set ZTolerance = printer["gcode_macro globalvariables"].zprobetolerance|float %}
+    {% set ZRetract = printer["gcode_macro globalvariables"].zproberetract|float %}
+    {% set S_Retries = printer.configfile.config["probe"]["samples_tolerance_retries"]|int %}
+    G0 Z15 F3600
+    G0 X{X_EUCLIDBODYOVERENDSTOP} Y{Y_EUCLIDBODYOVERENDSTOP} F4000
+    M118 Moving to probe Euclid switch body to Z-Endstop.
+    PROBE samples_result=median samples={ZSamples} speed={ZSpeed} samples_tolerance={ZTolerance} samples_tolerance_retries={S_Retries} sample_retract_dist={ZRetract}
+    _ZAUTO3
+
+[gcode_macro _ZAUTO3]
+gcode:
+    {% set ProbeResult = printer.probe.last_z_result %}
+    SET_GCODE_VARIABLE MACRO=_VARIABLES VARIABLE=zeuclidbodyprobing VALUE={ProbeResult}
+    {% set ZSpeed = printer["gcode_macro globalvariables"].zprobespeed|float %}
+    {% set ZSamples = printer["gcode_macro globalvariables"].zprobesamples|int %}
+    {% set ZTolerance = printer["gcode_macro globalvariables"].zprobetolerance|float %}
+    {% set ZRetract = printer["gcode_macro globalvariables"].zproberetract|float %}
+    {% set S_Retries = printer.configfile.config["probe"]["samples_tolerance_retries"]|int %}
+    G0 Z15 F3600
+    G0 X{X_NOZZLEOVERENDSTOP} Y{Y_NOZZLEOVERENDSTOP} F4000
+    M118 Moving to probe Nozzle to Z-Endstop.
+    PROBE samples_result=median samples={ZSamples} speed={ZSpeed} samples_tolerance={ZTolerance} samples_tolerance_retries={S_Retries} sample_retract_dist={ZRetract}
+    _ZAUTO4    
+
+[gcode_macro _ZAUTO4]
+gcode:
+    {% set ProbeResult = printer.probe.last_z_result %}
+    SET_GCODE_VARIABLE MACRO=_VARIABLES VARIABLE=znozzleprobing VALUE={ProbeResult}
+    G0 Z15 F3600
+    _ZAUTO5
+
+[gcode_macro _ZAUTO5]
+gcode:
+    {% set zcenterprobing = printer["gcode_macro _VARIABLES"].zcenterprobing %}
+    {% set znozzleprobing = printer["gcode_macro _VARIABLES"].znozzleprobing %}
+    {% set zeuclidbodyprobing = printer["gcode_macro _VARIABLES"].zeuclidbodyprobing %}
+    {% set zendstopswtitchoffset = printer["gcode_macro _VARIABLES"].zendstopswtitchoffset %}
+
+
+!!! Do some math !!!
