@@ -1,6 +1,7 @@
 # This is for when Euclid and Z-Endstop are run in series. Since they are both normally
 # closed, when either of the is depressed it will cause the path to open and the probe
 # signal will trigger.
+# Inspired by https://github.com/protoloft/klipper_z_calibration#what-it-does
 
 
 [gcode_macro _VARIABLES]
