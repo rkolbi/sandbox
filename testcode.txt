@@ -1,5 +1,20 @@
+# This is for when Euclid and Z-Endstop are run in series. Since they are both normally
+# closed, when either of the is depressed it will cause the path to open and the probe
+# signal will trigger.
+
+
 [gcode_macro _VARIABLES]
+# USER CONFIGURABLE VARIABLES
 variable_zendstopswtitchoffset: 0.2
+variable_zprobespeed: 5.0
+variable_zprobesamples: 7
+variable_zprobetolerance: 0.05
+variable_zproberetract: 1.5
+variable_xeuclidbodyoverendstop: XX
+variable_yeuclidbodyoverendstop: XX
+variable_xnozzleoverendstop: XX
+variable_ynozzleoverendstop:XX
+
 # DO NOT MODIFY FOLLOWING VARIABLES (they are used internaly)
 variable_zcenterprobing: 0
 variable_znozzleprobing: 0
@@ -15,10 +30,10 @@ gcode:
     {% set X_PROBEOFFSET = printer.configfile.config["probe"]["x_offset"]|float %}
     {% set Y_MID = printer.configfile.config["stepper_y"]["position_max"]|float / 2.0 %}
     {% set Y_PROBEOFFSET = printer.configfile.config["probe"]["y_offset"]|float %}
-    {% set ZSpeed = printer["gcode_macro globalvariables"].zprobespeed|float %}
-    {% set ZSamples = printer["gcode_macro globalvariables"].zprobesamples|int %}
-    {% set ZTolerance = printer["gcode_macro globalvariables"].zprobetolerance|float %}
-    {% set ZRetract = printer["gcode_macro globalvariables"].zproberetract|float %}
+    {% set ZSpeed = printer["gcode_macro _VARIABLES"].zprobespeed|float %}
+    {% set ZSamples = printer["gcode_macro _VARIABLES"].zprobesamples|int %}
+    {% set ZTolerance = printer["gcode_macro _VARIABLES"].zprobetolerance|float %}
+    {% set ZRetract = printer["gcode_macro _VARIABLES"].zproberetract|float %}
     {% set S_Retries = printer.configfile.config["probe"]["samples_tolerance_retries"]|int %}
     BED_MESH_CLEAR
     QUAD_GANTRY_LEVEL_ORIGINAL
@@ -32,11 +47,13 @@ gcode:
 gcode:
     {% set ProbeResult = printer.probe.last_z_result %}
     SET_GCODE_VARIABLE MACRO=_VARIABLES VARIABLE=zcenterprobing VALUE={ProbeResult}
-    {% set ZSpeed = printer["gcode_macro globalvariables"].zprobespeed|float %}
-    {% set ZSamples = printer["gcode_macro globalvariables"].zprobesamples|int %}
-    {% set ZTolerance = printer["gcode_macro globalvariables"].zprobetolerance|float %}
-    {% set ZRetract = printer["gcode_macro globalvariables"].zproberetract|float %}
+    {% set ZSpeed = printer["gcode_macro _VARIABLES"].zprobespeed|float %}
+    {% set ZSamples = printer["gcode_macro _VARIABLES"].zprobesamples|int %}
+    {% set ZTolerance = printer["gcode_macro _VARIABLES"].zprobetolerance|float %}
+    {% set ZRetract = printer["gcode_macro _VARIABLES"].zproberetract|float %}
     {% set S_Retries = printer.configfile.config["probe"]["samples_tolerance_retries"]|int %}
+    {% set X_EUCLIDBODYOVERENDSTOP = printer["gcode_macro _VARIABLES"].xeuclidbodyoverendstop|float %}
+    {% set Y_EUCLIDBODYOVERENDSTOP = printer["gcode_macro _VARIABLES"].yeuclidbodyoverendstop|float %}
     G0 Z15 F3600
     G0 X{X_EUCLIDBODYOVERENDSTOP} Y{Y_EUCLIDBODYOVERENDSTOP} F4000
     M118 Moving to probe Euclid switch body to Z-Endstop.
@@ -47,11 +64,13 @@ gcode:
 gcode:
     {% set ProbeResult = printer.probe.last_z_result %}
     SET_GCODE_VARIABLE MACRO=_VARIABLES VARIABLE=zeuclidbodyprobing VALUE={ProbeResult}
-    {% set ZSpeed = printer["gcode_macro globalvariables"].zprobespeed|float %}
-    {% set ZSamples = printer["gcode_macro globalvariables"].zprobesamples|int %}
-    {% set ZTolerance = printer["gcode_macro globalvariables"].zprobetolerance|float %}
-    {% set ZRetract = printer["gcode_macro globalvariables"].zproberetract|float %}
+    {% set ZSpeed = printer["gcode_macro _VARIABLES"].zprobespeed|float %}
+    {% set ZSamples = printer["gcode_macro _VARIABLES"].zprobesamples|int %}
+    {% set ZTolerance = printer["gcode_macro _VARIABLES"].zprobetolerance|float %}
+    {% set ZRetract = printer["gcode_macro _VARIABLES"].zproberetract|float %}
     {% set S_Retries = printer.configfile.config["probe"]["samples_tolerance_retries"]|int %}
+    {% set X_NOZZLEOVERENDSTOP = printer["gcode_macro _VARIABLES"].xnozzleoverendstop|float %}
+    {% set Y_NOZZLEOVERENDSTOP = printer["gcode_macro _VARIABLES"].ynozzleoverendstop|float %}
     G0 Z15 F3600
     G0 X{X_NOZZLEOVERENDSTOP} Y{Y_NOZZLEOVERENDSTOP} F4000
     M118 Moving to probe Nozzle to Z-Endstop.
@@ -73,4 +92,4 @@ gcode:
     {% set zendstopswtitchoffset = printer["gcode_macro _VARIABLES"].zendstopswtitchoffset %}
 
 
-!!! Do some math !!!
+!!! Do some math and apply !!!
