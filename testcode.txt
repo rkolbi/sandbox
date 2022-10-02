@@ -16,7 +16,7 @@ variable_yeuclidbodyoverendstop: XX
 variable_xnozzleoverendstop: XX
 variable_ynozzleoverendstop:XX
 
-# DO NOT MODIFY FOLLOWING VARIABLES (they are used internaly)
+# SYSTEM VARIABLES, THEY ARE USED INTERNALLY
 variable_zcenterprobing: 0
 variable_znozzleprobing: 0
 variable_zeuclidbodyprobing: 0
