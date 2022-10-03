@@ -103,4 +103,11 @@ gcode:
     {% set nozzleswitchoffset = zeuclidbodyprobing - znozzleprobing + switchoffset %}
     {% set zoffsetcalculated = zcenterprobing - nozzleswitchoffset %}
     SET_GCODE_VARIABLE MACRO=_VARIABLES VARIABLE=lastzoffsetcalculated VALUE={zoffsetcalculated}
-# Move nozzle with regard to zoffsetcalculated
+    # Move nozzle with regard to zoffsetcalculated
+    QUERY_PROBE
+    {% if not printer.probe.last_query %}
+        M118 Stowing Euclid Probe.
+        _PROBE_STOW
+       {% else %}
+        M118 ?!Probe is not attached.
+    {% endif %}
