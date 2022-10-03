@@ -43,6 +43,9 @@ gcode:
     {% set ZRetract = printer["gcode_macro _VARIABLES"].zproberetract|float %}
     {% set S_Retries = printer.configfile.config["probe"]["samples_tolerance_retries"]|int %}
     BED_MESH_CLEAR
+    {% if printer.toolhead.homed_axes != "xyz" %} ; Home if not already homed
+        G28 KEEP_PROBE:TRUE
+    {% endif %} 
     QUAD_GANTRY_LEVEL_ORIGINAL
     G0 Z15 F3600
     G0 X{(X_MID - X_PROBEOFFSET)} Y{(Y_MID - Y_PROBEOFFSET)} F4000
