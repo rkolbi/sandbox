@@ -105,6 +105,8 @@ gcode:
 
 [gcode_macro _ZAUTO5]
 gcode:
+    {% set Z_CONF = printer.configfile.config["probe"]["z_offset"]|float %}
+    {% set Z_POS = printer.toolhead.position.z|float %}
     {% set zcenterprobing = printer["gcode_macro _VARIABLES"].zcenterprobing %}
     {% set znozzleprobing = printer["gcode_macro _VARIABLES"].znozzleprobing %}
     {% set zeuclidbodyprobing = printer["gcode_macro _VARIABLES"].zeuclidbodyprobing %}
@@ -128,3 +130,13 @@ gcode:
     M118 zOffsetCalculated: {zoffsetcalculated}
     SET_GCODE_VARIABLE MACRO=_VARIABLES VARIABLE=lastzoffsetcalculated VALUE={zoffsetcalculated}
     # Move nozzle with regard to zoffsetcalculated
+    # ! ! !  Following is just a general idea, not tested at all - don't trust it  ! ! !
+    {% set Z_DIFFERENCE = zoffsetcalculated - ZP_CONF|float %}
+    {% set NEW_CURRENT_Z = (Z_POS - Z_DIFFERENCE) %}
+    M118 CONFIG Z-Probe Offset is: {Z_CONF}
+    M118 Difference: {Z_DIFFERENCE}
+    M118 Setting current Z_Height of {Z_POS} to {NEW_CURRENT_Z}
+    SET_KINEMATIC_POSITION Z={NEW_CURRENT_Z}
+    G4 P100
+    M118 Moving nozzle to newly adjusted Z15.
+    G0 Z15 F500
