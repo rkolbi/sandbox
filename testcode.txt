@@ -20,7 +20,7 @@ variable_switchoffset: 0.2
 variable_zprobespeed: 5.0
 variable_zprobesamples: 7
 variable_zprobetolerance: 0.05
-variable_zproberetract: 1.5
+variable_zproberetract: 2.5
 variable_xeuclidbodyoverendstop: XX
 variable_yeuclidbodyoverendstop: XX
 variable_xnozzleoverendstop: XX
@@ -110,6 +110,21 @@ gcode:
     {% set zeuclidbodyprobing = printer["gcode_macro _VARIABLES"].zeuclidbodyprobing %}
     {% set zendstopswtitchoffset = printer["gcode_macro _VARIABLES"].zendstopswtitchoffset %}
     {% set nozzleswitchoffset = zeuclidbodyprobing - znozzleprobing + switchoffset %}
+    M118 NozzleSwitchOffset = 
+    M118 EuclidBodyProbing: {zeuclidbodyprobing}
+    M118 -
+    M118 NozzleProbing: {znozzleprobing}
+    M118 +
+    M118 SwitchOffset: {switchoffset}
+    M118 =
+    M118 NozzleSwitchOffset: {nozzleswitchoffset}
+    M118    
     {% set zoffsetcalculated = zcenterprobing - nozzleswitchoffset %}
+    M118 zOffsetCalculated =
+    M118 zCenterProbing: {zcenterprobing}
+    M118 -
+    M118 NozzleSwitchOffset: {nozzleswitchoffset}
+    M118 =
+    M118 zOffsetCalculated: {zoffsetcalculated}
     SET_GCODE_VARIABLE MACRO=_VARIABLES VARIABLE=lastzoffsetcalculated VALUE={zoffsetcalculated}
     # Move nozzle with regard to zoffsetcalculated
